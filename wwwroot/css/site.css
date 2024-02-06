@@ -1,0 +1,341 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: bisque;
+}
+
+#draw{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
+
+
+@font-face {
+    font-family: myfont;
+    src: url("../font/holiday.ttf");
+}
+
+.myfont {
+    /*font-family: myfont;*/
+    background-color: #cccccc;
+    background-image: url("../images/dragon.png");
+}
+
+.font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.highlight{
+    width: 350px;
+    height: 270px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+html {
+    font-size: calc(100vmax / 1500 * 100);
+}
+
+body {
+    height: 90vh;
+    background-color: #e2aa01;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.title {
+    font-family: "Pacifico", cursive;
+    font-size: clamp(36px, 0.6rem, 100px);
+    color: #fff;
+    text-shadow: 6px 4px #735b13;
+}
+
+.title-1 {
+    font-family: "Pacifico", cursive;
+    font-size: 16px;
+}
+
+.instruction{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    text-align: end;
+    z-index: 100;
+}
+
+.instruction__button{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.instruction__text {
+    background-color: coral;
+    height: 150px;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    color: cornsilk;
+    border-radius: 20px;
+}
+
+[class^=firework-] {
+    position: absolute;
+    width: 0.1rem;
+    height: 0.1rem;
+    border-radius: 50%;
+}
+
+.firework-1 {
+    -webkit-animation: firework-lg 1.2s both infinite;
+    animation: firework-lg 1.2s both infinite;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    top: 20%;
+    left: 60%;
+}
+
+.firework-2 {
+    -webkit-animation: firework-md 1.2s both infinite;
+    animation: firework-md 1.2s both infinite;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    top: 35%;
+    left: 90%;
+}
+
+.firework-3 {
+    -webkit-animation: firework-sm 1.2s both infinite;
+    animation: firework-sm 1.2s both infinite;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+    top: 35%;
+    left: 35%;
+}
+
+.firework-4 {
+    -webkit-animation: firework-sm 1.2s both infinite;
+    animation: firework-sm 1.2s both infinite;
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+    top: 45%;
+    left: 80%;
+}
+
+.firework-5 {
+    -webkit-animation: firework-sm 1.2s both infinite;
+    animation: firework-sm 1.2s both infinite;
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+    top: 60%;
+    left: 50%;
+}
+
+.firework-6 {
+    -webkit-animation: firework-lg 1.2s both infinite;
+    animation: firework-lg 1.2s both infinite;
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+    top: 70%;
+    left: 35%;
+}
+
+.firework-7 {
+    -webkit-animation: firework-lg 1.2s both infinite;
+    animation: firework-lg 1.2s both infinite;
+    -webkit-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+    top: 55%;
+    left: 90%;
+}
+
+.firework-8 {
+    -webkit-animation: firework-lg 1.2s both infinite;
+    animation: firework-lg 1.2s both infinite;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    top: 90%;
+    left: 15%;
+}
+
+.firework-9 {
+    -webkit-animation: firework-md 1.2s both infinite;
+    animation: firework-md 1.2s both infinite;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+    top: 65%;
+    left: 40%;
+}
+
+.firework-10 {
+    -webkit-animation: firework-sm 1.2s both infinite;
+    animation: firework-sm 1.2s both infinite;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    top: 60%;
+    left: 75%;
+}
+
+.firework-11 {
+    -webkit-animation: firework-lg 1.2s both infinite;
+    animation: firework-lg 1.2s both infinite;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    top: 45%;
+    left: 25%;
+}
+
+.firework-12 {
+    -webkit-animation: firework-sm 1.2s both infinite;
+    animation: firework-sm 1.2s both infinite;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    top: 75%;
+    left: 35%;
+}
+
+.firework-13 {
+    -webkit-animation: firework-md 1.2s both infinite;
+    animation: firework-md 1.2s both infinite;
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+    top: 60%;
+    left: 85%;
+}
+
+.firework-14 {
+    -webkit-animation: firework-sm 1.2s both infinite;
+    animation: firework-sm 1.2s both infinite;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    top: 25%;
+    left: 65%;
+}
+
+.firework-15 {
+    -webkit-animation: firework-sm 1.2s both infinite;
+    animation: firework-sm 1.2s both infinite;
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+    top: 40%;
+    left: 80%;
+}
+
+@-webkit-keyframes firework-sm {
+    0%, 100% {
+        opacity: 0;
+    }
+
+    10%, 70% {
+        opacity: 1;
+    }
+
+    100% {
+        box-shadow: -0.5rem 0rem 0 #fff, 0.5rem 0rem 0 #fff, 0rem -0.5rem 0 #fff, 0rem 0.5rem 0 #fff, 0.35rem -0.35rem 0 #fff, 0.35rem 0.35rem 0 #fff, -0.35rem -0.35rem 0 #fff, -0.35rem 0.35rem 0 #fff;
+    }
+}
+
+@keyframes firework-sm {
+    0%, 100% {
+        opacity: 0;
+    }
+
+    10%, 70% {
+        opacity: 1;
+    }
+
+    100% {
+        box-shadow: -0.5rem 0rem 0 #fff, 0.5rem 0rem 0 #fff, 0rem -0.5rem 0 #fff, 0rem 0.5rem 0 #fff, 0.35rem -0.35rem 0 #fff, 0.35rem 0.35rem 0 #fff, -0.35rem -0.35rem 0 #fff, -0.35rem 0.35rem 0 #fff;
+    }
+}
+
+@-webkit-keyframes firework-md {
+    0%, 100% {
+        opacity: 0;
+    }
+
+    10%, 70% {
+        opacity: 1;
+    }
+
+    100% {
+        box-shadow: -0.7rem 0rem 0 #fff, 0.7rem 0rem 0 #fff, 0rem -0.7rem 0 #fff, 0rem 0.7rem 0 #fff, 0.49rem -0.49rem 0 #fff, 0.49rem 0.49rem 0 #fff, -0.49rem -0.49rem 0 #fff, -0.49rem 0.49rem 0 #fff;
+    }
+}
+
+@keyframes firework-md {
+    0%, 100% {
+        opacity: 0;
+    }
+
+    10%, 70% {
+        opacity: 1;
+    }
+
+    100% {
+        box-shadow: -0.7rem 0rem 0 #fff, 0.7rem 0rem 0 #fff, 0rem -0.7rem 0 #fff, 0rem 0.7rem 0 #fff, 0.49rem -0.49rem 0 #fff, 0.49rem 0.49rem 0 #fff, -0.49rem -0.49rem 0 #fff, -0.49rem 0.49rem 0 #fff;
+    }
+}
+
+@-webkit-keyframes firework-lg {
+    0%, 100% {
+        opacity: 0;
+    }
+
+    10%, 70% {
+        opacity: 1;
+    }
+
+    100% {
+        box-shadow: -0.9rem 0rem 0 #fff, 0.9rem 0rem 0 #fff, 0rem -0.9rem 0 #fff, 0rem 0.9rem 0 #fff, 0.63rem -0.63rem 0 #fff, 0.63rem 0.63rem 0 #fff, -0.63rem -0.63rem 0 #fff, -0.63rem 0.63rem 0 #fff;
+    }
+}
+
+@keyframes firework-lg {
+    0%, 100% {
+        opacity: 0;
+    }
+
+    10%, 70% {
+        opacity: 1;
+    }
+
+    100% {
+        box-shadow: -0.9rem 0rem 0 #fff, 0.9rem 0rem 0 #fff, 0rem -0.9rem 0 #fff, 0rem 0.9rem 0 #fff, 0.63rem -0.63rem 0 #fff, 0.63rem 0.63rem 0 #fff, -0.63rem -0.63rem 0 #fff, -0.63rem 0.63rem 0 #fff;
+    }
+}
+
+#title{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    color: coral;
+    display: none;
+    text-align: center;
+}
+
+#value {
+    text-align:center;
+}
