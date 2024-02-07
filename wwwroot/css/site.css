@@ -28,7 +28,9 @@ body {
     text-align:center;
 }
 
-
+.hidden{
+    display: none;
+}
 @font-face {
     font-family: myfont;
     src: url("../font/holiday.ttf");
@@ -68,7 +70,7 @@ body {
     font-family: "Pacifico", cursive;
     font-size: clamp(36px, 0.6rem, 100px);
     color: #fff;
-    text-shadow: 6px 4px #735b13;
+    text-shadow: 3px 2px #735b13;
 }
 
 .title-1 {
@@ -99,6 +101,26 @@ body {
     gap: 10px;
     color: cornsilk;
     border-radius: 20px;
+}
+
+.information{
+    display: flex;
+}
+
+.information__input{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 20px;
+    width: 70%;
+}
+
+.information__button{
+    height: 100px;
+}
+
+input[type="text"] {
+    font-size: 24px;
 }
 
 [class^=firework-] {
@@ -329,13 +351,16 @@ body {
 
 #title{
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 15%;
     color: coral;
     display: none;
     text-align: center;
+    background-color: antiquewhite;
+    height: 140px;
 }
 
 #value {
     text-align:center;
 }
+

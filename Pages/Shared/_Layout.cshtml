@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - LuckyDraw</title>
+    <title>Rút lì xì cùng Nguyễn Tiến</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/LuckyDraw.styles.css" asp-append-version="true" />
@@ -12,6 +12,7 @@
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 </head>
 <body>
+    @Html.AntiForgeryToken()
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
